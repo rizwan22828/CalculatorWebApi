@@ -1,0 +1,42 @@
+<div class="row col-md-12 table-dev pull-center">
+    <div class="col-md-4">
+        <table>
+            <tbody>
+                <tr>
+                    <td><button class="btn btn-primary" (click)="sendNumber(9)">9</button></td>
+                    <td><button class="btn btn-primary" (click)="sendNumber(8)">8</button></td>
+                    <td><button class="btn btn-primary" (click)="sendNumber(7)">7</button></td>
+                    <td><button class="btn btn-info" (click)="sendNumber('+')">+</button></td>
+                   
+                </tr>
+                <tr>
+                    <td><button class="btn btn-primary" (click)="sendNumber(6)">6</button></td>
+                    <td><button class="btn btn-primary" (click)="sendNumber(5)">5</button></td>
+                    <td><button class="btn btn-primary" (click)="sendNumber(4)">4</button></td>
+                    <td><button class="btn btn-info operationBtnDesign" (click)="sendNumber('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-primary" (click)="sendNumber(3)">3</button></td>
+                    <td><button class="btn btn-primary" (click)="sendNumber(2)">2</button></td>
+                    <td><button class="btn btn-primary" (click)="sendNumber(1)">1</button></td>
+                    <td><button class="btn btn-info operationBtnDesign" (click)="sendNumber('*')">*</button></td>
+                </tr>
+        
+        
+            </tbody>
+        </table>
+    </div>
+    <!-- <div class="col-md-4 p-0" style="margin-top: 1px;" >
+            <button style="padding-top: 46px; padding-bottom: 46px;" class="btn btn-primary" (click)="clearField()">Clear</button>  
+    </div> -->
+</div>
+
+
+<table>
+    <tbody>
+        <tr>
+            <td><button class="btn btn-info" style="padding-left: 50px; padding-right: 50px;" (click)="getResult()">=</button></td>
+            <td><button class="btn btn-info" (click)="sendNumber('/')">/</button></td>
+        </tr>
+    </tbody>
+</table>

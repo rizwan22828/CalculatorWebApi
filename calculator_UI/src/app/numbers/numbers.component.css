@@ -1,0 +1,15 @@
+/* table {
+    border-spacing: 15px;
+  }
+
+  table, th, td {
+    padding: 10px;
+  } */
+  .table-dev{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .operationBtnDesign{
+    padding: 6px 14px;
+  }

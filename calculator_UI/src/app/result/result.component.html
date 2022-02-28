@@ -1,0 +1,7 @@
+<!-- <textarea rows="1"></textarea> -->
+<div class="container pt-3">
+
+    <input type="text" name="currentnumber" id="currentnumber" [(ngModel)]="stirngNumber" >
+    <button class="btn btn-danger btn-sm" (click)="btnClear()" style="margin-left:8px">Clear</button>
+    <app-numbers (event)="receiveNumber($event); "></app-numbers>
+</div>
